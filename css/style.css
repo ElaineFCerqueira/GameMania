@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2? family= Titillium+Web:ital,wght@1.700 & display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_grid{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    }
+
+header{
+    background-color: #1E1C21;
+    height: 80px;
+}
+
+.cabecalho_alinhamento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; 
+
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    
+}
+
+
+.menu a{
+    font-family: 'Roboto', sans-serif;
+    color:green;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px ;
+    
+}
+
+.menu a:hover{
+    color: green;
+    scale: 1.1;
+
+}
+
+.banner{
+    background-image: url(../img/ImagemBanner.png);
+    height: 600px;
+    background-repeat: none;
+    background-size: cover;
+}
+ .posicao_texto{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+ }
+
+.texto_banner{
+    color: white;
+    text-align: center;
+
+}
+
+.texto_banner span {
+    font-size: 60px;
+    font-family: Verdana;
+    margin-top: 25px;   
+ }
+
+
+
+ .texto_banner p {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 80px;
+
+    }
+
+
+.texto_banner a{
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: red;
+    padding: 12px 32px;
+    border-radius: 10px;
+
+
+
+
+}
+
+
