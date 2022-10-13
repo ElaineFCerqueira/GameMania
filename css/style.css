@@ -84,19 +84,15 @@ header{
     }
 
 
-.texto_banner a{
-    color: white;
-    font-family: Georgia, serif;
-    font-size: 22px;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: red;
-    padding: 12px 32px;
-    border-radius: 10px;
-
-
-
-
-}
+    .texto_banner a{
+        color: white;
+        font-family: Georgia, serif;
+        font-size: 22px;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: red;
+        padding: 12px 32px;
+        border-radius: 10px;
+    }
 
 
